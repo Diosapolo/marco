@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias de la Casa</title>
+    <link rel="stylesheet" href="caso1.html"> <!--Enlazar a una hoja de estilos-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        .productos {
+            display: flex;
+            justify-content: space-around;
+            margin: 5px auto;
+            width: 90%;
+        }
+        .producto {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            width: 30%;
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .producto h3 {
+            color: #ff5722;
+            margin: 10px 0;
+        }
+        .producto p {
+            margin: 5px 0;
+        }
+        .producto button {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .producto button:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Delicias de la Casa</h1>
+    <nav>
+        <a href="#">Productos</a> | 
+        <a href="#">Contacto</a>
+    </nav>
+</header>
+
+<section class="productos">
+    <div class="producto">
+        <img src="Pizza Margherita.jpg" alt="Pizza Margherita">
+        <h3>Pizza Margherita</h3>
+        <p>Deliciosa pizza con tomate, mozzarella y albahaca fresca.</p>
+        <p><strong>Precio: $10.00</strong></p>
+        <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="Hamburguesa.jpg" alt="Burguer Clásica">
+        <h3>Burguer Clásica</h3>
+        <p>Hamburguesa jugosa con lechuga, tomate y cebolla.</p>
+        <p><strong>Precio: $8.00</strong></p>
+        <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="Tacos.jpg" alt="Taco al Pastor">
+        <h3>Taco al Pastor</h3>
+        <p>Auténticos tacos con carne adobada y piña.</p>
+        <p><strong>Precio: $3.00</strong></p>
+        <button>Agregar al carrito</button>
+    </div>
+</section>
+
+<footer>
+    <p>Contacto: 1579738@senati.pe | Teléfono: 988622902</p>
+    <p>© 2024 Delicias de la Casa</p>
+</footer>
+
+</body>
+</html>
+
